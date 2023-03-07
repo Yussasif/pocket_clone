@@ -5,6 +5,9 @@
     font-family: 'Poppins', 'sans-serif';
     font: 'Poppins';
 }
+.hidden{
+    display: none;
+}
 .section-one{
     height: 850px;
     background-color: #753ff6;
@@ -205,15 +208,15 @@
 
 
 .payment-page{
-    display: none;
+    /* display: none; */
 }
 
 .shop-page{
-    display: none;
+    /* display: none; */
 }
 
 .groups-page{
-    display: none;
+    /* display: none; */
 }
 
 
