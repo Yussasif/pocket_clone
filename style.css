@@ -62,7 +62,6 @@
     color: white;
 }
 .hero-right{
-    /* background-color: aliceblue; */
     width: 50%;
     padding-top:15px ;
 
@@ -206,9 +205,16 @@
 
 
 .payment-page{
-    /* display: none; */
+    display: none;
 }
 
+.shop-page{
+    display: none;
+}
+
+.groups-page{
+    display: none;
+}
 
 
 /* footer section */
