@@ -8,6 +8,11 @@
 .hidden{
     display: none;
 }
+.sticky{
+    position: sticky;
+    top: 50px;
+}
+
 .section-one{
     height: 850px;
     background-color: #753ff6;
@@ -120,10 +125,11 @@
     border-radius: 50px;
     margin: 30px auto 30px auto;
     padding: 10px;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: space-between;
     position: sticky;
+    top: 50px;
 
 }
 .links{
@@ -204,19 +210,6 @@
     font-size: 1.2vw;
     line-height: 1.2;
     max-width: 30vw;
-}
-
-
-.payment-page{
-    /* display: none; */
-}
-
-.shop-page{
-    /* display: none; */
-}
-
-.groups-page{
-    /* display: none; */
 }
 
 
