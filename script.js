@@ -1,5 +1,10 @@
 
-
+// $(document).ready(function(){
+//     $('.links').on('click', function(){
+//         $(this).siblings().removeClass('active')
+//         $(this).addClass('active')
+//     })
+// })
 
 
 
@@ -21,6 +26,11 @@ function showPayment(){
     shopPage.classList.add('hidden')
     groupsPage.classList.add('hidden')
     cardsPage.classList.add('hidden')
+
+    paymentBtn.classList.add('active')
+    shopBtn.classList.remove('active')
+    groupsBtn.classList.remove('active')
+    cardsBtn.classList.remove('active')
 }
 
 function showShop(){
@@ -28,13 +38,24 @@ function showShop(){
     shopPage.classList.remove('hidden')
     groupsPage.classList.add('hidden')
     cardsPage.classList.add('hidden')
+
+    paymentBtn.classList.remove('active')
+    shopBtn.classList.add('active')
+    groupsBtn.classList.remove('active')
+    cardsBtn.classList.remove('active')
 }
 
 function showGroup(){
-    paymentPage.classList.add('hidden')
+    paymentPage.classList.add('hidden', )
     shopPage.classList.add('hidden')
     groupsPage.classList.remove('hidden')
     cardsPage.classList.add('hidden')
+
+    paymentBtn.classList.remove('active')
+    shopBtn.classList.remove('active')
+    groupsBtn.classList.add('active')
+    cardsBtn.classList.remove('active')
+  
 }
 
 function showCard(){
@@ -42,6 +63,12 @@ function showCard(){
     shopPage.classList.add('hidden')
     groupsPage.classList.add('hidden')
     cardsPage.classList.remove('hidden')
+
+    paymentBtn.classList.remove('active')
+    shopBtn.classList.remove('active')
+    groupsBtn.classList.remove('active')
+    cardsBtn.classList.add('active')
+    
 }
 
 

@@ -143,25 +143,43 @@
     text-align: center;
     border-radius: 50px;
     width: 25%;
+    transition: 0.5s;
 }
-.payment:hover{
+
+/* .slide{
+    position: absolute;
+    width: 25%;
+    background-color: pink;
+    height: 90px;
+    margin: 0 0 0 0;
+    border-radius: 50px;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: -1;
+} */
+
+.payment.active {
     background-color: #753ff6;
     color: white;
+    
    
 }
-.shop:hover{
+.shop.active{
     background-color: #ffad0d;
     color: white;
-   
+    
 }
-.groups:hover{
+.groups.active {
     background-color: #22ad80;
     color: white;
+  
 }
-.card:hover{
+.card.active {
     background-color: #171826 ;
     color: white;
+   
 }
+
 
 
 /* page section */
