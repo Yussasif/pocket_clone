@@ -16,12 +16,12 @@
 .section-one{
     height: 850px;
     background-color: #753ff6;
-    /* background-image:  url(img/strikes.png); */
+    background-image:  url(img/strikes.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     padding: 10vh 0 0 5vw;
     display: flex;
-    
 
 }
 .logo{
@@ -119,16 +119,16 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
     
     .section-one{
-        height: 850px;
+        height: 780px;
         background-color: #753ff6;
-        /* background-image:  url(img/mobile-strikes.png); */
+        background-image:  url(img/mobile-strikesn.png);
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: 50px;
-
+        background-size: 100%;
+overflow: hidden;
         padding: 10vh 0 0 5vw;
         display: flex;
         flex-direction: column;
@@ -203,7 +203,7 @@
     }
   
     .hero-right{
-        background-color: red;
+    
     width: 90%;
     margin: auto;
     margin-top: 50px;
