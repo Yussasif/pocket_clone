@@ -119,155 +119,16 @@
 }
 
 
-@media screen and (max-width: 435px) {
-    
-    .section-one{
-        height: 780px;
-        background-color: #753ff6;
-        background-image:  url(img/mobile-strikesn.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 100%;
-overflow: hidden;
-        padding: 10vh 0 0 5vw;
-        display: flex;
-        flex-direction: column;
-    
-    }
-    .logo{
-        width: 30vw;
-    
-    
-    }
-    .logo-cont{
-        width: 40%;
-        margin: auto;
-        margin-top: 20px;
 
-    }
-    .hero-left{
-        width: 90%;
-        text-align: center;
-    }
-    .hero-text{
-        margin-top: 10vh;
-    }
-    .hero-h1, .footer-h2{
-        font-family: 'Poppins', sans-serif;
-        font: 'Poppins';
-        font-size: 10vw;
-        font-weight: 600;
-        color: white;
-    }
-    .hero-p, .footer-p{
-        font-family: 'Poppins', sans-serif;
-        font: 'Poppins';
-        text-align: center;
-        font-size: 3.5vw;
-        font-weight: normal;
-        color: white;
-        width: 100%;
-        padding-top: 10px;
-    }
-    .get-app{
-        display: block;
-    
-    }
-    .apps{
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-        width: 40%;
-        margin: auto;
-        margin-top: 30px;
-    }
-    .app{
-        width: 100%;
-        background-color: aliceblue;
-        text-align: center;
-        justify-content: space-evenly;
-        align-items: center;
-        border-radius: 50px;
-        /* height: 40px; */
-        padding: 2vw 2vw 2vw 2vw;
-        font-weight: bold;
-        font-size: 3vw;
-        display: flex;
-        margin-top: 10px;
-        
-    }
-    .barcode{
-     display: none;
-
-    }
-  
-    .hero-right{
-    
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-    padding: 0;
-    text-align: center;
-
-    }
-    .phone{
-        /* margin-left: 15%; */
-        height: auto;
-        width: 75vw;
-        /* flex-wrap: wrap; */
-}
-
-
-.section-two{
-    display: block;
-    padding: 20px 0 0 0vw;
-}
-.section-two-head{
-    text-align: center;
-    font-family: 'Poppins', 'sans-serif';
-    font: 'Poppins';
-    margin-bottom: 30px;
-    font-weight: bolder;
-    font-size: 3vw;
-    color: #a5a6ae;
-}
-.logo-row-one, .logo-row-two{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.brand-logo{
-    max-width: 10vw;
-    height: auto;
-}
-.logo-row-two{
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-.video{
-    width: 90%;
-    height: 40vh;
-    margin-top: 150px;
-    display: flex;
-    margin: auto;
-    margin-bottom: 100px;
-}
-.frame{
-    border-radius: 30px;
-}
-
-}
 
 /* Page Navbar */
-.page-nav{
+ .page-nav{
     width: 90%;
     background-color: #e5e5e5;
-    border: 0;
     border-radius: 50px;
     margin: 30px auto 30px auto;
-    padding: 10px;
-    /* display: flex !important; */
+    /* padding: 10px; */
+    /* display: flex !important;  */
     flex-direction: row;
     justify-content: space-between;
     position: sticky;
@@ -275,20 +136,18 @@ overflow: hidden;
 
     display: none;
 
-}
-.links{
+} 
+/* .links{
     text-decoration: none;
     color: #171826;
-    font-family: 'Poppins', 'sans-serif';
-    font: 'Poppins';
-    font-size: xx-large;
+    font-size: xx-large; 
     font-weight: bolder;
-    padding: 20px 70px 20px 70px;
+    padding: 20px 70px 20px 70px; 
     text-align: center;
     border-radius: 50px;
     width: 25%;
     transition: 0.5s;
-}
+}  */
 
 .payment.active {
     background-color: #753ff6;
@@ -317,7 +176,7 @@ overflow: hidden;
 /* page section */
 
 .pages{
-    display: none;
+    
         margin: 50px 0 50px 0;
 }
 .page-section-p{
@@ -342,7 +201,7 @@ overflow: hidden;
 .component-two,
 .component-four,
 .component-six{
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 .component-img{
     max-width: 40vw;
@@ -495,3 +354,228 @@ hr{
     color: #a5a6ae;
 }
  */
+
+
+
+ @media screen and (max-width: 435px) {
+    
+    .section-one{
+        height: 780px;
+        background-color: #753ff6;
+        background-image:  url(img/mobile-strikesn.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+overflow: hidden;
+        padding: 10vh 0 0 5vw;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .logo{
+        width: 30vw;
+    
+    
+    }
+    .logo-cont{
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .hero-left{
+        width: 90%;
+        text-align: center;
+    }
+    .hero-text{
+        margin-top: 10vh;
+    }
+    .hero-h1, .footer-h2{
+        font-family: 'Poppins', sans-serif;
+        font: 'Poppins';
+        font-size: 10vw;
+        font-weight: 600;
+        color: white;
+    }
+    .hero-p, .footer-p{
+        font-family: 'Poppins', sans-serif;
+        font: 'Poppins';
+        text-align: center;
+        font-size: 3.5vw;
+        font-weight: normal;
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .get-app{
+        display: block;
+    
+    }
+    .apps{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .app{
+        width: 100%;
+        background-color: aliceblue;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 50px;
+        /* height: 40px; */
+        padding: 2vw 2vw 2vw 2vw;
+        font-weight: bold;
+        font-size: 3vw;
+        display: flex;
+        margin-top: 10px;
+        
+    }
+    .barcode{
+     display: none;
+
+    }
+  
+    .hero-right{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+
+    }
+    .phone{
+        /* margin-left: 15%; */
+        height: auto;
+        width: 75vw;
+        /* flex-wrap: wrap; */
+    }
+
+
+    .section-two{
+        display: block;
+        padding: 20px 0 0 0vw;
+    }
+    .section-two-head{
+        text-align: center;
+        font-family: 'Poppins', 'sans-serif';
+        font: 'Poppins';
+        margin-bottom: 30px;
+        font-weight: bolder;
+        font-size: 3vw;
+        color: #a5a6ae;
+    }
+    .logo-row-one, .logo-row-two{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .brand-logo{
+        max-width: 10vw;
+        height: auto;
+    }
+    .logo-row-two{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .video{
+        width: 90%;
+        height: 40vh;
+        margin-top: 150px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .frame{
+        border-radius: 30px;
+    }
+
+    /* page nav */
+    .page-nav{
+        width: 90%;
+        background-color: #e5e5e5;
+        border-radius: 50px;
+        margin: 0px auto 0px auto;
+        padding: 5px;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 50px;
+
+
+
+    }
+    .links{
+        text-decoration: none;
+        color: #171826;
+        font-size: 3.5vw;
+        font-weight: bold;
+        /* padding: 20px 70px 20px 70px; */
+        text-align: center;
+        border-radius: 50px;
+        width: 25%;
+        transition: 0.5s;
+    }
+
+         /* page section */
+
+    .pages{
+
+        margin: auto;
+    }
+    .page-section-p{
+        font-family: 'Poppins', 'sans-serif';
+        font: 'Poppins';
+        color: #a5a6ae;
+        text-align: center;
+        width: 90%;
+        font-size: 4.5vw;
+        font-weight: bold;
+        margin: 50px auto 50px auto;
+
+    }
+    .page-components{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: centers;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+
+    }
+    .component-two,
+    .component-four,
+    .component-six{
+        flex-direction: column-reverse;
+    }
+    .component-img{
+        max-width: 100%;
+        height: auto;
+    }
+    .content{
+        padding: 50px;
+    
+    }
+    .content-h2{
+        font-weight: 600;
+        font-size: 5vw;
+        max-width: 80%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .content-p{
+        font-size: 2.8vw;
+        line-height: 1.2;
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+}
