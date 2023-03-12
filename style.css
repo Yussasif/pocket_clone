@@ -201,7 +201,7 @@
 .component-two,
 .component-four,
 .component-six{
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
 }
 .component-img{
     max-width: 40vw;
