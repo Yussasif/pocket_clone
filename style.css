@@ -24,6 +24,28 @@
     display: flex;
 
 }
+@media screen and (max-width: 990px){
+    .section-one{
+        height: 650px;
+    }
+}
+@media screen and (max-width: 770px){
+    .section-one{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 700px){
+    .section-one{
+        height: 1000px;
+        background-image:  url(img/mobile-strikesn.png);
+    }
+}
+@media screen and (max-width: 435px) {
+    .section-one{
+        /* height: 780px; */
+        background-image:  url(img/mobile-strikesn.png);
+    }
+}
 .logo{
     width: 15vw;
 }
@@ -138,7 +160,7 @@
  .links{
     text-decoration: none;
     color: #171826;
-    font-size: xx-large; 
+    font-size: 2vw; 
     font-weight: bolder;
     padding: 20px 70px 20px 70px; 
     text-align: center;
@@ -227,7 +249,7 @@ footer{
 }
 
 
-/* .footer-app{
+ .footer-app{
     background-image: url(img/back.png);
     background-color: #171826;
     background-repeat: no-repeat;
@@ -276,6 +298,7 @@ footer{
 }
 .external-link{
     display: flex;
+    flex-wrap: wrap;
     width: 50%;
     margin: auto;
     justify-content: space-evenly;
@@ -309,26 +332,29 @@ hr{
 .footer-h4{
     font-family: 'Poppins', 'sans-serif';
     font: 'Poppins';
-    /* font-weight: bold; *
+    /* font-weight: bold; */
     font-size: 2vw;
     color: #a5a6ae;
 }
-.footer-p{
+.footer-2p{
     font-family: 'Poppins', 'sans-serif';
     font: 'Poppins';
     font-weight: normal;
     font-size: 1.5vw;
     color: #a5a6ae;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .contact-link{
     text-decoration: none;
     color: #a5a6ae;
-    margin: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
     font-family: 'Poppins', 'sans-serif';
     font: 'Poppins';
     font-size: 1.1vw;
     font-weight: 600;
+    max-width: 30%;
+
 
 }
 .contact-link:hover{
@@ -351,16 +377,19 @@ hr{
     text-decoration: none;
     color: #a5a6ae;
 }
- */
+.social-iconm{
+    display: none;
+}
 
 
 
- @media screen and (max-width: 435px) {
+
+ @media screen and (max-width: 700px) {
     
     .section-one{
-        height: 780px;
+        /* height: 780px; */
         background-color: #753ff6;
-        background-image:  url(img/mobile-strikesn.png);
+        
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
@@ -681,9 +710,10 @@ overflow: hidden;
     .contact-link{
         text-decoration: none;
         color: #a5a6ae;
-        margin: 20px 0 20px 0;
+        /* margin: 20px 0 20px 0; */
         font-size: 3vw;
         font-weight: 600;
+        max-width: 90%;
     
     }
     .contact-link:hover{
@@ -706,6 +736,7 @@ overflow: hidden;
         display: none;
     }
     .social-iconm{
+        display: flex;
         text-decoration: none;
         color: #a5a6ae;
        
