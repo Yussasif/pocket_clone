@@ -1,14 +1,4 @@
 
-// $(document).ready(function(){
-//     $('.links').on('click', function(){
-//         $(this).siblings().removeClass('active')
-//         $(this).addClass('active')
-//     })
-// })
-
-
-
-
 let paymentPage = document.querySelector('#payment')
 let shopPage = document.querySelector('.shop-page')
 let groupsPage = document.querySelector('.groups-page')
